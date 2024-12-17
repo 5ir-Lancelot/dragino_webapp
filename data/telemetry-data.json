@@ -1,0 +1,108 @@
+date,deviceId,soilTemperature,soilConductivity,soilWaterContent,battery
+Tue Dec 17 2024 02:05:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:05:41.656Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.969}
+Tue Dec 17 2024 02:05:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:05:46.874Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.941}
+Tue Dec 17 2024 02:05:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.43,0,0,
+{"date":"2024-12-17T01:05:50.184Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.43,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.971}
+Tue Dec 17 2024 02:06:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:06:16.515Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":3.025}
+Tue Dec 17 2024 02:06:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:06:41.656Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.968}
+Tue Dec 17 2024 02:06:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:06:46.812Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.973}
+Tue Dec 17 2024 02:06:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+{"date":"2024-12-17T01:06:50.187Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.959}
+{"date":"2024-12-17T01:07:16.782Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":3.016}
+Tue Dec 17 2024 02:07:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+Tue Dec 17 2024 02:07:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:07:41.564Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+Tue Dec 17 2024 02:07:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:07:46.814Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.996}
+Tue Dec 17 2024 02:07:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+{"date":"2024-12-17T01:07:50.207Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.971}
+{"date":"2024-12-17T01:08:16.580Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.968}
+Tue Dec 17 2024 02:08:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+Tue Dec 17 2024 02:08:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:08:41.721Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.975}
+Tue Dec 17 2024 02:08:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:08:46.784Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.975}
+Tue Dec 17 2024 02:08:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+{"date":"2024-12-17T01:08:50.275Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.95}
+Tue Dec 17 2024 02:09:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:09:16.769Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.985}
+Tue Dec 17 2024 02:09:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:09:41.660Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.971}
+Tue Dec 17 2024 02:09:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:09:46.864Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.985}
+Tue Dec 17 2024 02:09:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+{"date":"2024-12-17T01:09:50.279Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.973}
+Tue Dec 17 2024 02:10:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:10:16.848Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.992}
+Tue Dec 17 2024 02:10:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:10:41.630Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.95}
+Tue Dec 17 2024 02:10:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:10:46.739Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.971}
+{"date":"2024-12-17T01:10:50.177Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.941}
+Tue Dec 17 2024 02:10:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+Tue Dec 17 2024 02:11:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:11:16.833Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.973}
+Tue Dec 17 2024 02:11:41 GMT+0100 (Mitteleuropäische Normalzeit),,18.59,0,0,
+{"date":"2024-12-17T01:11:41.145Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.964}
+Tue Dec 17 2024 02:11:46 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:11:46.724Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.934}
+Tue Dec 17 2024 02:11:50 GMT+0100 (Mitteleuropäische Normalzeit),,18.42,0,0,
+{"date":"2024-12-17T01:11:50.197Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.966}
+Tue Dec 17 2024 02:12:16 GMT+0100 (Mitteleuropäische Normalzeit),,18.71,0,0,
+{"date":"2024-12-17T01:12:16.849Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.955}
+{"date":"2024-12-17T01:12:46.834Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.987}
+{"date":"2024-12-17T01:12:50.295Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.969}
+{"date":"2024-12-17T01:13:16.865Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.976}
+{"date":"2024-12-17T01:13:41.698Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.59,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+{"date":"2024-12-17T01:13:46.835Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.943}
+{"date":"2024-12-17T01:13:50.238Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.964}
+{"date":"2024-12-17T01:14:16.819Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.975}
+{"date":"2024-12-17T01:14:41.641Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.961}
+{"date":"2024-12-17T01:14:46.788Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.941}
+{"date":"2024-12-17T01:14:50.212Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.923}
+{"date":"2024-12-17T01:15:16.772Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.945}
+{"date":"2024-12-17T01:15:41.641Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.943}
+{"date":"2024-12-17T01:15:46.774Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.943}
+{"date":"2024-12-17T01:15:50.266Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.973}
+{"date":"2024-12-17T01:16:16.743Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+{"date":"2024-12-17T01:16:41.689Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.976}
+{"date":"2024-12-17T01:16:46.775Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.976}
+{"date":"2024-12-17T01:16:50.162Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.95}
+{"date":"2024-12-17T01:17:16.761Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+{"date":"2024-12-17T01:17:41.596Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.975}
+{"date":"2024-12-17T01:17:46.731Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.957}
+{"date":"2024-12-17T01:17:50.214Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.943}
+{"date":"2024-12-17T01:18:16.762Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+{"date":"2024-12-17T01:18:41.660Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.966}
+{"date":"2024-12-17T01:18:46.747Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.904}
+{"date":"2024-12-17T01:18:50.173Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.961}
+{"date":"2024-12-17T01:19:16.794Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":3}
+{"date":"2024-12-17T01:19:41.616Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.948}
+{"date":"2024-12-17T01:19:46.483Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.71,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.987}
+{"date":"2024-12-17T01:19:50.195Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.912}
+{"date":"2024-12-17T01:20:16.562Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.902}
+{"date":"2024-12-17T01:20:41.586Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.968}
+{"date":"2024-12-17T01:20:46.765Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.982}
+{"date":"2024-12-17T01:20:50.118Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.961}
+{"date":"2024-12-17T01:21:16.765Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.973}
+{"date":"2024-12-17T01:21:41.635Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.952}
+{"date":"2024-12-17T01:21:46.734Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.992}
+{"date":"2024-12-17T01:21:50.187Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.966}
+{"date":"2024-12-17T01:22:16.515Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.957}
+{"date":"2024-12-17T01:22:41.591Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.976}
+{"date":"2024-12-17T01:22:50.208Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.941}
+{"date":"2024-12-17T01:22:51.766Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.962}
+{"date":"2024-12-17T01:23:20.329Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.985}
+{"date":"2024-12-17T01:23:41.561Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.913}
+{"date":"2024-12-17T01:23:50.269Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.987}
+{"date":"2024-12-17T01:23:50.215Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.968}
+{"date":"2024-12-17T01:24:20.348Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.95}
+{"date":"2024-12-17T01:24:41.625Z","DeviceId":"eui-a84041968182f535","soilTemperature":18.58,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.948}
+{"date":"2024-12-17T01:24:50.239Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.98}
+{"date":"2024-12-17T01:24:50.250Z","DeviceId":"eui-a840413d2183ff86","soilTemperature":18.42,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.917}
+{"date":"2024-12-17T01:25:20.271Z","DeviceId":"eui-a84041f26183ffcc","soilTemperature":18.7,"soilConductivity":0,"soilWaterContent":0,"batteryVoltage":2.948}
