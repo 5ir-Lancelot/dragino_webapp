@@ -74,7 +74,11 @@ server.listen(process.env.PORT || 3000, () => {
 const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsumerGroup);
 
 (async () => {
-  await eventHubReader.startReadMessage((message, date, deviceId) => {
+  await eventHubReader.startReadMessage((message, date) => {
+
+
+    // Extract the device_id
+    const deviceId = message.end_device_ids.device_id;
 
     // Print the entire message to see the raw data
     console.log('Received message:', message);
@@ -95,7 +99,7 @@ const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsum
     // Ensure all relevant data is present in the payload
     const payload = {
       date: date || new Date().toISOString(),
-      DeviceId: deviceId,
+      deviceId: deviceId,
       soilTemperature: soilTemperature,
       soilConductivity: soilConductivity,
       soilWaterContent: soilWaterContent,
