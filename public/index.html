@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Required meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IoT Dashboard</title>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Correctly referenced frontend script -->
+  <script src="js/chart-device-data.js"></script>
+  <!-- path to style sheet  -->
+   <link href="css/style.css" rel="stylesheet" />
+
+
+  <title>IoT Dashboard</title>
 </head>
 <body>
   <h1>IoT Device Dashboard</h1>
   <div>
-    <label for="listOfDevices">Select Device:</label>
-    <select id="listOfDevices"></select>
     <span id="deviceCount">0 devices</span>
+    <select id="listOfDevices" class="select_box"></select>
   </div>
+  <!-- This is a comment
   <canvas id="iotChart" width="800" height="400"></canvas>
+  -->
+
+  <!-- All plots for the variables added now -->
+  <canvas id="soilTemperatureChart"></canvas>
+  <canvas id="soilWaterContentChart"></canvas>
+  <canvas id="soilConductivityChart"></canvas>
+  <canvas id="soilpHChart"></canvas>
 
   <!-- Download Button -->
   <div>
@@ -22,7 +38,5 @@
       <button>Download Data</button>
     </a>
   </div>
-
-  <script src="frontend.js"></script>
 </body>
 </html>

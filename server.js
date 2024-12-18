@@ -1,3 +1,5 @@
+
+// this is the backend file
 const express = require('express');
 const http = require('http');
 const WebSocket = require('ws');
@@ -12,6 +14,15 @@ const wss = new WebSocket.Server({ server });
 
 const iotHubConnectionString = process.env.IotHubConnectionString;
 const eventHubConsumerGroup = process.env.EventHubConsumerGroup;
+
+//check the websocket connection
+wss.on('connection', (ws) => {
+  console.log('New WebSocket connection');
+  ws.on('message', (message) => {
+    console.log('Message received from client:', message);
+  });
+});
+
 
 if (!iotHubConnectionString || !eventHubConsumerGroup) {
   console.error('Environment variables IotHubConnectionString and EventHubConsumerGroup must be specified.');
@@ -40,6 +51,7 @@ const csvWriter = createObjectCsvWriter({
     { id: 'soilConductivity', title: 'soilConductivity' },
     { id: 'soilWaterContent', title: 'soilWaterContent' },
     { id: 'battery', title: 'battery' },
+    { id: 'pH', title: 'pH' },
   ],
 });
 
@@ -81,20 +93,29 @@ const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsum
     const deviceId = message.end_device_ids.device_id;
 
     // Print the entire message to see the raw data
-    console.log('Received message:', message);
+    //console.log('Received message:', message);
 
     // Extract fields from decodedPayload Lukas Now correctly written
     const decodedPayload = message.uplink_message.decoded_payload || {};
 
     // Print the entire message to see the raw data
-    console.log('Received payload part:', decodedPayload);
+    //console.log('Received payload part:', decodedPayload);
 
     // extract the variables from the payload
     // when value undefinend put 'null'
-    const batteryVoltage = decodedPayload.BatV !== undefined && decodedPayload.BatV !== null ? decodedPayload.BatV : null;
+
+    // for the EC meters
+    const batteryVoltage_EC = decodedPayload.BatV !== undefined && decodedPayload.BatV !== null ? decodedPayload.BatV : null;
     const soilConductivity = decodedPayload.conduct_SOIL !== undefined && decodedPayload.conduct_SOIL !== null ? decodedPayload.conduct_SOIL : null;
     const soilTemperature = decodedPayload.temp_SOIL !== undefined && decodedPayload.temp_SOIL !== null ? decodedPayload.temp_SOIL : null;
     const soilWaterContent = decodedPayload.water_SOIL !== undefined && decodedPayload.water_SOIL !== null ? decodedPayload.water_SOIL : null;
+
+    //for the pH meters
+    const batteryVoltage_pH = decodedPayload.Bat !== undefined && decodedPayload.Bat !== null ? decodedPayload.Bat : null;
+    const soilPH1 = decodedPayload.PH1_SOIL !== undefined && decodedPayload.PH1_SOIL !== null ? decodedPayload.PH1_SOIL : null;
+    const soilTemperature_pH = decodedPayload.TEMP_SOIL !== undefined && decodedPayload.TEMP_SOIL !== null ? decodedPayload.TEMP_SOIL : null;
+    //const ds18b20Temperature = decodedPayload.TempC_DS18B20 !== undefined && decodedPayload.TempC_DS18B20 !== null ? decodedPayload.TempC_DS18B20 : null;
+
 
     // Ensure all relevant data is present in the payload
     const payload = {
@@ -103,7 +124,7 @@ const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsum
       soilTemperature: soilTemperature,
       soilConductivity: soilConductivity,
       soilWaterContent: soilWaterContent,
-      batteryVoltage: batteryVoltage,
+      pH: soilPH1,
     };
 
     // Write to CSV
@@ -111,11 +132,13 @@ const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsum
       .then(() => console.log('Data written to CSV:', payload));
 
     // Log the full data to the terminal for debugging
-    console.log('Broadcasted Data:', JSON.stringify(payload));
+    //console.log('Broadcasted Data:', JSON.stringify(payload));
 
     // Write to file and broadcast
     //Share the data with the frontend
     appendDataToFile(payload);
+    //check before sharing with frontend
+    console.log('Broadcasting data to clients:', payload);
     wss.broadcast(JSON.stringify(payload));
   });
 })().catch((err) => console.error(err));
